@@ -10,7 +10,6 @@ Gem::Specification.new do |gem|
   gem.version       = OmniAuth::Pandadoc::VERSION
   gem.license       = 'MIT'
   gem.summary       = %(Pandadoc Strategy for OmniAuth)
-  gem.description   = %(Pandadoc Strategy for OmniAuth)
   gem.authors       = ['Mike Carey', 'Euan Lau']
   gem.email         = ['euanlau@gmail.com']
   gem.homepage      = 'https://github.com/catchandrelease/omniauth-pandadoc'
@@ -20,11 +19,11 @@ Gem::Specification.new do |gem|
 
   gem.required_ruby_version = '>= 2.1'
 
-  gem.add_runtime_dependency 'jwt', '>= 1.5'
+  gem.add_runtime_dependency 'jwt', '~> 1.5'
   gem.add_runtime_dependency 'omniauth', '~> 1.2'
-  gem.add_runtime_dependency 'omniauth-oauth2', '>= 1.5'
+  gem.add_runtime_dependency 'omniauth-oauth2', '~> 1.5'
 
-  gem.add_development_dependency 'rake'
-  gem.add_development_dependency 'rspec'
-  gem.add_development_dependency 'rubocop'
+  gem.add_development_dependency 'rake', '~> 12.0'
+  gem.add_development_dependency 'rspec', '~> 3.7'
+  gem.add_development_dependency 'rubocop', '~> 0.58'
 end
