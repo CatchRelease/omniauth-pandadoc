@@ -26,7 +26,7 @@ end
 
 ## Supported Rubies
 
-- Ruby MRI (2.0+)
+- Ruby MRI (2.2+)
 
 ## License
 
