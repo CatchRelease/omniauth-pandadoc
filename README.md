@@ -1,4 +1,4 @@
-# OmniAuth Pandadoc &nbsp;[![Build Status](https://secure.travis-ci.org/euanlau/omniauth-pandadoc.svg?branch=master)](https://travis-ci.org/euanlau/omniauth-pandadoc) [![Gem Version](https://img.shields.io/gem/v/omniauth-pandadoc.svg)](https://rubygems.org/gems/omniauth-pandadoc)
+# OmniAuth Pandadoc &nbsp;[![Build Status](https://secure.travis-ci.org/CatchRelease/omniauth-pandadoc.svg?branch=master)](https://travis-ci.org/CatchRelease/omniauth-pandadoc) [![Gem Version](https://img.shields.io/gem/v/omniauth-pandadoc.svg)](https://rubygems.org/gems/omniauth-pandadoc)
 
 Pandadoc Strategy for OmniAuth.
 
