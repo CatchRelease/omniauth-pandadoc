@@ -105,4 +105,18 @@ describe OmniAuth::Strategies::Pandadoc do
       expect(subject.callback_path).to eq('/auth/foo/callback')
     end
   end
+
+  describe '#authorize_params' do
+    it 'takes a custom scope' do
+      @options = { scope: 'foo' }
+
+      expect(subject.authorize_params[:scope]).to eq 'foo'
+    end
+
+    it 'provides a default scope if none is provided' do
+      @options = {}
+
+      expect(subject.authorize_params[:scope]).to eq described_class::DEFAULT_SCOPE
+    end
+  end
 end
