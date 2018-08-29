@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
   gem.version       = OmniAuth::Pandadoc::VERSION
   gem.license       = 'MIT'
   gem.summary       = %(Pandadoc Strategy for OmniAuth)
-  gem.authors       = ['Mike Carey', 'Euan Lau']
+  gem.authors       = ['Mike Carey', 'Euan Lau', 'Damian Galarza']
   gem.email         = ['euanlau@gmail.com']
   gem.homepage      = 'https://github.com/catchandrelease/omniauth-pandadoc'
 
