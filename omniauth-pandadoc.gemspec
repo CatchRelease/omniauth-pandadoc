@@ -12,7 +12,7 @@ Gem::Specification.new do |gem|
   gem.summary       = %(Pandadoc Strategy for OmniAuth)
   gem.authors       = ['Mike Carey', 'Euan Lau', 'Damian Galarza']
   gem.email         = ['euanlau@gmail.com']
-  gem.homepage      = 'https://github.com/catchandrelease/omniauth-pandadoc'
+  gem.homepage      = 'https://github.com/catchrelease/omniauth-pandadoc'
 
   gem.files         = `git ls-files`.split("\n")
   gem.require_paths = ['lib']
