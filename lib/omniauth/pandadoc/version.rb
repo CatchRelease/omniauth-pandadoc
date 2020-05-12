@@ -2,6 +2,6 @@
 
 module OmniAuth
   module Pandadoc
-    VERSION = '1.0.0rc4'
+    VERSION = '1.0.0'
   end
 end
