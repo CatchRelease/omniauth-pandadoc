@@ -1,14 +1,24 @@
-ClassLength:
+Gemspec/RequiredRubyVersion:
   Enabled: false
-Layout/IndentHeredoc:
+Layout/EmptyLinesAroundAttributeAccessor:
+  Enabled: true
+Layout/HeredocIndentation:
   Enabled: false
+Layout/LineLength:
+  Enabled: false
+Lint/RaiseException:
+  Enabled: true
+Layout/SpaceAroundMethodCallOperator:
+  Enabled: true
+Lint/StructNewOverride:
+  Enabled: true
 Metrics/AbcSize:
   Enabled: false
 Metrics/BlockLength:
   ExcludedMethods: ['describe', 'context']
-Metrics/CyclomaticComplexity:
+Metrics/ClassLength:
   Enabled: false
-Metrics/LineLength:
+Metrics/CyclomaticComplexity:
   Enabled: false
 Metrics/MethodLength:
   Enabled: false
@@ -16,8 +26,16 @@ Metrics/PerceivedComplexity:
   Enabled: false
 Naming:
   Enabled: false
+Style/ExponentialNotation:
+  Enabled: true
+Style/HashEachMethods:
+  Enabled: true
+Style/HashTransformKeys:
+  Enabled: true
+Style/HashTransformValues:
+  Enabled: true
 Style/MutableConstant:
   Enabled: false
-Gemspec/RequiredRubyVersion:
-  Enabled: false
+Style/SlicingWithRange:
+  Enabled: true
 

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'omniauth'
 require 'omniauth-oauth2'
 
@@ -5,7 +7,7 @@ module OmniAuth
   module Strategies
     # Main class for Pandadoc OAuth2 strategy.
     class Pandadoc < OmniAuth::Strategies::OAuth2
-      DEFAULT_SCOPE = 'read+write'.freeze
+      DEFAULT_SCOPE = 'read+write'
 
       option :client_options,
              site: 'https://api.pandadoc.com/public/v1',
